@@ -13,7 +13,7 @@ function Drawer ({ onClose,onRemove, items=[],open }) {
   const [orderId,setOrderId]= React.useState(null);
   const [isOrderComplete,setIsOrderComplete]= React.useState(false);
   const [isLoading,setIsLoading]= React.useState(false);
-  const talPrice=cartItems.reduce((sum,obj)=>obj.price+sum,0);
+  const totalPrice=cartItems.reduce((sum,obj)=>obj.price+sum,0);
 
   const onClickOrder= async () => {
     try {
