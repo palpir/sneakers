@@ -1,6 +1,0 @@
-{
-    "git.autofetch": true,
-    "projectManager.git.baseFolders": [
-        "www"
-    ]
-}
